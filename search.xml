@@ -10,4 +10,56 @@
         <tag>其他</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Blog搭建教程|准备工作及Hexo的安装</title>
+    <url>/2024/07/05/Blog%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B-%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C%E5%8F%8AHexo%E7%9A%84%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><p>· Node.js（版本不低于10.13)<br>· Git</p>
+<h2 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h2><p>Node.js的<a class="link"   href="https://nodejs.org/zh-cn/download/package-manager" >官方下载链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。若链接无法打开，可前往<a class="link"   href="https://registry.npmmirror.com/binary.html?path=node/" >淘宝镜像 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>下载。</p>
+
+  <div class="note p-4 mb-4 rounded-small success">
+    <p>对于Windows用户：<br>使用 Node.js 官方安装程序时，请确保勾选 Add to PATH 选项（默认已勾选）</p>
+
+  </div>
+<h2 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h2><a class="button  center large" href='https://git-scm.com/download/win' title='Windows用户'><i class='fa-brands fa-windows'></i> Windows用户</a>
+<a class="button  center large" href='https://sourceforge.net/projects/git-osx-installer/' title='Mac用户'><i class='fa-brands fa-apple'></i> Mac用户</a>
+
+  <div class="note p-4 mb-4 rounded-small success">
+    <p>对于Windows用户：<br>若Git官方网页无法打开，可前往<a class="link"   href="https://registry.npmmirror.com/binary.html?path=git-for-windows/" >淘宝镜像 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>进行下载</p>
+
+  </div>
+
+<hr>
+<p>若您已经完成了Node.js和Git的安装，下面就可以开始安装Hexo了</p>
+<h1 id="Hexo的安装"><a href="#Hexo的安装" class="headerlink" title="Hexo的安装"></a>Hexo的安装</h1><h2 id="1-创建Hexo安装文件夹"><a href="#1-创建Hexo安装文件夹" class="headerlink" title="1.创建Hexo安装文件夹"></a>1.创建Hexo安装文件夹</h2><p>在任意目录下，创建安装Hexo的文件夹，以保存你的Blog</p>
+<h2 id="2-安装Hexo"><a href="#2-安装Hexo" class="headerlink" title="2.安装Hexo"></a>2.安装Hexo</h2><p>在该文件夹内右键，注意下面三个选项<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://asset.gitblock.cn/Media?name=AF6B56ABBE64A8C0B9C5E671985A8F15.png"
+                     
+                ></p>
+
+  <div class="note p-4 mb-4 rounded-small danger">
+    <p>安装Hexo时，仅可以使用Windows终端（Windows PowerShell)和Git Bah Here</p>
+
+  </div>
+
+<p>打开后，确保安装Hexo路径与终端显示路径一致</p>
+<hr>
+<p>若与其一致，就可以进行Hexo的安装。</p>
+<p>在Windows终端（Windows PowerShell)或Git内输入如下代码</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure></div>
+
+<p>等待进度条的完成……</p>
+<p>进度条完成后，输出如下（下面的非输出固定值使用“×××”表示）</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">changed ××× packages in ×××s</span><br><span class="line">××× packages are locking for funding</span><br><span class="line">	run `npm fund` for details</span><br></pre></td></tr></table></figure></div>
+<h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p>以上就是Hexo安装准备工作及Hexo安装的教程</p>
+
+  <div class="note p-4 mb-4 rounded-small primary">
+    <p>下一期：Hexo的建站以及Blog主题的使用</p>
+
+  </div>]]></content>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
 </search>
