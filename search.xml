@@ -6,8 +6,12 @@
     <content><![CDATA[<p>你好！我是TJY，这是这个小站第一篇文章哦~</p>
 <p>本小站由Hexo搭建</p>
 ]]></content>
+      <categories>
+        <category>个人</category>
+        <category>关于小站</category>
+      </categories>
       <tags>
-        <tag>其他</tag>
+        <tag>小站</tag>
       </tags>
   </entry>
   <entry>
@@ -55,11 +59,159 @@
 <h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p>以上就是Hexo安装准备工作及Hexo安装的教程</p>
 
   <div class="note p-4 mb-4 rounded-small primary">
-    <p>下一期：Hexo的建站以及Blog主题的使用</p>
+    <p>下一期：Hexo的建站</p>
 
   </div>]]></content>
+      <categories>
+        <category>教程</category>
+        <category>Hexo</category>
+      </categories>
       <tags>
         <tag>教程</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog搭建教程|Hexo的建站</title>
+    <url>/2024/07/07/Blog%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B-Hexo%E7%9A%84%E5%BB%BA%E7%AB%99/</url>
+    <content><![CDATA[<h1 id="若您未完成关于Hexo建站的准备工作，请您转到如下文章"><a href="#若您未完成关于Hexo建站的准备工作，请您转到如下文章" class="headerlink" title="若您未完成关于Hexo建站的准备工作，请您转到如下文章"></a>若您未完成关于Hexo建站的准备工作，请您转到如下文章</h1><a class="button  center large" href='https://tjy-github.github.io/2024/07/05/Blog%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B-%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C%E5%8F%8AHexo%E7%9A%84%E5%AE%89%E8%A3%85/' title='点我转到“Blog搭建教程|准备工作及Hexo的安装”'><i class='fa-solid fa-arrow-right'></i> 点我转到“Blog搭建教程|准备工作及Hexo的安装”</a>
+
+<h1 id="使用Hexo创建您的Blog-小站"><a href="#使用Hexo创建您的Blog-小站" class="headerlink" title="使用Hexo创建您的Blog&#x2F;小站"></a>使用Hexo创建您的Blog&#x2F;小站</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>安装 Hexo 完成后，在您与安装Hexo路径一致的目录下，右键使用Windows终端（Windows PowerShell)或Git Bash执行如下代码：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo init blog</span><br></pre></td></tr></table></figure></div>
+<p>等待出现文件夹“blog”</p>
+<h2 id="指定进入目录"><a href="#指定进入目录" class="headerlink" title="指定进入目录"></a>指定进入目录</h2><p>右键使用Windows终端（Windows PowerShell)或Git Bash执行如下代码：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd blog</span><br></pre></td></tr></table></figure></div>
+
+<p>当您输入完该代码后，输出没有任何显示</p>
+
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>Question</p>
+
+    </div>
+    <div class="notel-content">
+      <p>这句代码有什么用处？</p>
+
+    </div>
+  </div>
+
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>Answer</p>
+
+    </div>
+    <div class="notel-content">
+      <p>若您已经完成执行该代码，这意味着您再次使用Windows终端（Windows PowerShell)或Git Bash继续执行代码时，需要进入blog文件夹。</p>
+
+    </div>
+  </div>
+
+
+  <div class="note-large default">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-info"></i><p>普及</p>
+
+    </div>
+    <div class="notel-content">
+      <p>在Git中，cd命令用于改变当前目录，它进入到指定目录中。</p>
+<p>使用cd命令的基本语法为：<br>cd &lt;目录路径&gt;</p>
+
+    </div>
+  </div>
+
+<h2 id="打开文件夹"><a href="#打开文件夹" class="headerlink" title="打开文件夹"></a>打开文件夹</h2><p>若您已经阅读了上面的小知识，那么您需要打开目录下的blog文件夹</p>
+<h2 id="安装所需依赖包"><a href="#安装所需依赖包" class="headerlink" title="安装所需依赖包"></a>安装所需依赖包</h2><p>打开文件夹后，您需要再次右键使用Windows终端（Windows PowerShell)或Git Bash继续执行代码(代码如下)</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>Question</p>
+
+    </div>
+    <div class="notel-content">
+      <p>这句代码有什么用处？</p>
+
+    </div>
+  </div>
+
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>Answer</p>
+
+    </div>
+    <div class="notel-content">
+      <p>npm的意思是指Node Package Manager</p>
+<p>install即可安装所需依赖包</p>
+<p>意为：使用Node Package Manager安装项目所需依赖包</p>
+
+    </div>
+  </div>
+
+<h2 id="检查您的目录"><a href="#检查您的目录" class="headerlink" title="检查您的目录"></a>检查您的目录</h2><p>下面为了确保安装的顺利，请您检查目录是否正确，这里我将展示官方文档中的指示：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="配置_config.yml"></a>配置_config.yml</h2><p>使用记事本打开_config.yml文件，下面我将讲述该文件的构造，您可以使用键盘上的Ctrl+F（^F）边查看是否有以下项目，边了解它的用处</p>
+<table>
+<thead>
+<tr>
+<th>设置</th>
+<th>简述</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>title</code></td>
+<td>网站标题</td>
+<td></td>
+</tr>
+<tr>
+<td><code>subtitle</code></td>
+<td>网站副标题</td>
+<td></td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>网站描述</td>
+<td></td>
+</tr>
+<tr>
+<td><code>keywords</code></td>
+<td>网站关键词</td>
+<td></td>
+</tr>
+<tr>
+<td><code>author</code></td>
+<td>您的名字</td>
+<td></td>
+</tr>
+<tr>
+<td><code>language</code></td>
+<td>网站使用的语言</td>
+<td>默认值：<code>en</code></td>
+</tr>
+<tr>
+<td><code>timezone</code></td>
+<td>网站时区</td>
+<td>默认值： Hexo 默认使用您电脑的时区，对于中国大陆地区可更改为<code>Asia/Shanghai</code></td>
+</tr>
+</tbody></table>
+<h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p>以上就是Hexo的建站</p>
+
+  <div class="note p-4 mb-4 rounded-small primary">
+    <p>下一期：Hexo的命令</p>
+
+  </div>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
