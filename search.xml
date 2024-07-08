@@ -248,7 +248,11 @@
 <h2 id="用处-11"><a href="#用处-11" class="headerlink" title="用处"></a>用处</h2><p>开始服务</p>
 <h1 id="version"><a href="#version" class="headerlink" title="version"></a>version</h1><h2 id="用法-12"><a href="#用法-12" class="headerlink" title="用法"></a>用法</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo v</span><br></pre></td></tr></table></figure></div>
 <h2 id="用处-12"><a href="#用处-12" class="headerlink" title="用处"></a>用处</h2><p>显示版本信息</p>
-]]></content>
+<h1 id="下一期内容"><a href="#下一期内容" class="headerlink" title="下一期内容"></a>下一期内容</h1>
+  <div class="note p-4 mb-4 rounded-small primary">
+    <p>下一期：Hexo的部署</p>
+
+  </div>]]></content>
       <categories>
         <category>教程</category>
         <category>Hexo</category>
