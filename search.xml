@@ -214,4 +214,48 @@
         <tag>Hexo</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Blog搭建教程|Hexo的命令</title>
+    <url>/2024/07/08/Blog%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B-Hexo%E7%9A%84%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p><strong>下面是我列举的所有Hexo基本指令，简单描述了它们的用法及用处。在<code>[]</code>或<code>&lt;&gt;</code>中的内容非固定值，并在使用指令时无需添加<code>[]</code>或<code>&lt;&gt;</code></strong></p>
+<h1 id="clean"><a href="#clean" class="headerlink" title="clean"></a>clean</h1><h2 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="用处"><a href="#用处" class="headerlink" title="用处"></a>用处</h2><p>删除生成的文件和缓存</p>
+<h1 id="config"><a href="#config" class="headerlink" title="config"></a>config</h1><h2 id="用法-1"><a href="#用法-1" class="headerlink" title="用法"></a>用法</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo config [key] [value]</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="用处-1"><a href="#用处-1" class="headerlink" title="用处"></a>用处</h2><p>获取或设置配置</p>
+<h1 id="deploy"><a href="#deploy" class="headerlink" title="deploy"></a>deploy</h1><h2 id="用法-2"><a href="#用法-2" class="headerlink" title="用法"></a>用法</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="用处-2"><a href="#用处-2" class="headerlink" title="用处"></a>用处</h2><p>部署您的网站</p>
+<h1 id="generate"><a href="#generate" class="headerlink" title="generate"></a>generate</h1><h2 id="用法-3"><a href="#用法-3" class="headerlink" title="用法"></a>用法</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="用处-3"><a href="#用处-3" class="headerlink" title="用处"></a>用处</h2><p>生成静态文件</p>
+<h1 id="help"><a href="#help" class="headerlink" title="help"></a>help</h1><h2 id="用法-4"><a href="#用法-4" class="headerlink" title="用法"></a>用法</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo help</span><br></pre></td></tr></table></figure></div>
+<h2 id="用处-4"><a href="#用处-4" class="headerlink" title="用处"></a>用处</h2><p>获取有关命令的帮助</p>
+<h1 id="init"><a href="#init" class="headerlink" title="init"></a>init</h1><h2 id="用法-5"><a href="#用法-5" class="headerlink" title="用法"></a>用法</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init &lt;example&gt;</span><br></pre></td></tr></table></figure></div>
+<h2 id="用处-5"><a href="#用处-5" class="headerlink" title="用处"></a>用处</h2><p>创建新的Hexo文件夹</p>
+<h1 id="list"><a href="#list" class="headerlink" title="list"></a>list</h1><h2 id="用法-6"><a href="#用法-6" class="headerlink" title="用法"></a>用法</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo list &lt;type&gt;</span><br></pre></td></tr></table></figure></div>
+<h2 id="用处-6"><a href="#用处-6" class="headerlink" title="用处"></a>用处</h2><p>列出网站信息</p>
+<h1 id="migrate"><a href="#migrate" class="headerlink" title="migrate"></a>migrate</h1><h2 id="用法-7"><a href="#用法-7" class="headerlink" title="用法"></a>用法</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo migrate &lt;type&gt;</span><br></pre></td></tr></table></figure></div>
+<h2 id="用处-7"><a href="#用处-7" class="headerlink" title="用处"></a>用处</h2><p>将您的站点从其他系统迁移到Hexo</p>
+<h1 id="new"><a href="#new" class="headerlink" title="new"></a>new</h1><h2 id="用法-8"><a href="#用法-8" class="headerlink" title="用法"></a>用法</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new &lt;title&gt;</span><br></pre></td></tr></table></figure></div>
+<h2 id="用处-8"><a href="#用处-8" class="headerlink" title="用处"></a>用处</h2><p>创建新帖子</p>
+<h1 id="publish"><a href="#publish" class="headerlink" title="publish"></a>publish</h1><h2 id="用法-9"><a href="#用法-9" class="headerlink" title="用法"></a>用法</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo publish &lt;filename&gt;</span><br></pre></td></tr></table></figure></div>
+<h2 id="用处-9"><a href="#用处-9" class="headerlink" title="用处"></a>用处</h2><p>将草稿文章从_drafts移到_posts文件夹</p>
+<h1 id="render"><a href="#render" class="headerlink" title="render"></a>render</h1><h2 id="用法-10"><a href="#用法-10" class="headerlink" title="用法"></a>用法</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo render &lt;file1&gt; [file2] ...</span><br></pre></td></tr></table></figure></div>
+<h2 id="用处-10"><a href="#用处-10" class="headerlink" title="用处"></a>用处</h2><p>使用渲染器插件渲染文件</p>
+<h1 id="server"><a href="#server" class="headerlink" title="server"></a>server</h1><h2 id="用法-11"><a href="#用法-11" class="headerlink" title="用法"></a>用法</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></div>
+<h2 id="用处-11"><a href="#用处-11" class="headerlink" title="用处"></a>用处</h2><p>开始服务</p>
+<h1 id="version"><a href="#version" class="headerlink" title="version"></a>version</h1><h2 id="用法-12"><a href="#用法-12" class="headerlink" title="用法"></a>用法</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo v</span><br></pre></td></tr></table></figure></div>
+<h2 id="用处-12"><a href="#用处-12" class="headerlink" title="用处"></a>用处</h2><p>显示版本信息</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
 </search>
